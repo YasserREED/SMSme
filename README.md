@@ -2,8 +2,8 @@
 <img src="https://github.com/YasserREED/SMSme/blob/main/IMG/HeadLine_PIC.png">
 
 #### Tool Will Show you:
-- ***12 Amarican numbers ***
-- ***SMS code authentication for each number***
+- ***12 Free numbers***
+- ***get easily SMS code authentication for each number***
 
 ## HOW to Downlaod SMSme in Linux
 
