@@ -1,9 +1,9 @@
 # SMSme
 <img src="https://github.com/YasserREED/SMSme/blob/main/IMG/HeadLine_PIC.png">
 
-### Tool Will Show you:
+### Tool will Show you:
 - ***12 Free numbers***
-- ***get easily SMS code authentication for each number***
+- ***get SMS code authentication for each number***
 
 ## How to Downlaod SMSme in Linux
 
