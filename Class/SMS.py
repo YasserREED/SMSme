@@ -57,7 +57,7 @@ class SMS():
         copy = str(input(
             f"{RED}[REQ] {WHITE}Did you use the number on the website? [Y/n] : ")).lower()
         if copy == "y":
-            CLEAR.countdown_S(3)
+            CLEAR.countdown_S(30)
             time = soup.find_all('div', class_="col-xs-0 col-md-2 mobile_hide")
             message = soup.find_all('div', class_="col-xs-12 col-md-8")
             print("\n"+"="*60)
@@ -74,7 +74,7 @@ class SMS():
             check = str(input(f"\n    {YELLOW}[WARN] {WHITE}Did you get the code ? [Y/n] : ")).lower()
             if check == "n":
                 CLEAR.clear()
-                CLEAR.countdown_M(3)
+                CLEAR.countdown_M(90)
                 print("\n\n"+"="*60)
                 print(f"\n{YELLOW}{BOLD}[RESULT] {WHITE}Code Result: \n")
                 for n in range(0, 10):
