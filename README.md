@@ -14,7 +14,7 @@
 > ***cd SMSme/***
 
 ### Download requirment librarys
-> ***pip install -r requirments.text***
+> ***pip install -r requirments.txt***
 
 ### Open the tool by python3
 > ***python3 SMSme.py***
