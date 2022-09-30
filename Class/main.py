@@ -112,6 +112,7 @@ class SMS():
                 input(f"\n    {YELLOW}[WARN] {WHITE}Did you get the code ? [Y/n] : ")).lower()
             if check == "n":
                 CLEAR.clear()
+                output.logo()
                 CLEAR.countdown_M(90)
                 body = s.get(url).text
                 soup = BeautifulSoup(body, 'html.parser')
@@ -128,11 +129,19 @@ class SMS():
                         f"{GREEN}[+] {WHITE}Arrived at : {YELLOW}{arrived}")
 
                 print("\n"+"="*60)
-                print(
-                    f"\n{GREEN}[INFO]{WHITE} Thank You, Happy to help you\n\n")
-                print(
-                    f"{GREEN}[INFO]{WHITE} Please Follow us on {BLUE}Twitter{WHITE} : https://twitter.com/YasserREED\n")
-
+                check2 = str(
+                    input(f"\n    {YELLOW}[WARN] {WHITE}Did you get the code ? [Y/n] : ")).lower()
+                if check2 == 'y':
+                    print(
+                        f"\n{GREEN}[INFO]{WHITE} Thank You, Happy to help you\n\n")
+                    print(
+                        f"{GREEN}[INFO]{WHITE} Please Follow us on {BLUE}Twitter{WHITE} : https://twitter.com/YasserREED\n")
+                    sleep(5)
+                elif check2 == 'n':
+                    print(
+                        f"\n{RED}[ERR]{WHITE} Please run {YELLOW}SMSme.py{WHITE} again and Choose another number!\n")
+                    sleep(5)
+                    quit()
             if check == "y":
                 print(
                     f"\n{BOLD}{GREEN}[INFO]{WHITE} Thank You, Happy to help you\n{GREEN}[INFO]{WHITE} Please Follow us on {BLUE}Twitter{WHITE}:{YELLOW} https://twitter.com/YasserREED{WHITE}\n")
@@ -179,6 +188,7 @@ class SMS():
                 input(f"\n    {YELLOW}[WARN] {WHITE}Did you get the code ? [Y/n] : ")).lower()
             if check == "n":
                 CLEAR.clear()
+                output.logo()
                 CLEAR.countdown_M(90)
                 body = s.get(url).text
                 soup = BeautifulSoup(body, 'html.parser')
@@ -197,10 +207,19 @@ class SMS():
                         print("\n"+f"{YELLOW}-{WHITE}"*20)
 
                 print("\n"+"="*60)
-                print(
-                    f"\n{GREEN}[INFO]{WHITE} Thank You, Happy to help you\n\n")
-                print(
-                    f"{GREEN}[INFO]{WHITE} Please Follow us on {BLUE}Twitter{WHITE} : https://twitter.com/YasserREED\n")
+                check2 = str(
+                    input(f"\n    {YELLOW}[WARN] {WHITE}Did you get the code ? [Y/n] : ")).lower()
+                if check2 == 'y':
+                    print(
+                        f"\n{GREEN}[INFO]{WHITE} Thank You, Happy to help you\n\n")
+                    print(
+                        f"{GREEN}[INFO]{WHITE} Please Follow us on {BLUE}Twitter{WHITE} : https://twitter.com/YasserREED\n")
+                    sleep(5)
+                elif check2 == 'n':
+                    print(
+                        f"\n{RED}[ERR]{WHITE} Please run {YELLOW}SMSme.py{WHITE} again and Choose another number!\n")
+                    sleep(5)
+                    quit()
 
             if check == "y":
                 print(
@@ -247,6 +266,7 @@ class SMS():
                 input(f"\n    {YELLOW}[WARN] {WHITE}Did you get the code ? [Y/n] : ")).lower()
             if check == "n":
                 CLEAR.clear()
+                output.logo()
                 CLEAR.countdown_M(90)
                 body = s.get(url).text
                 soup = BeautifulSoup(body, 'html.parser')
@@ -265,11 +285,19 @@ class SMS():
                         print("\n"+f"{YELLOW}-{WHITE}"*20)
 
                 print("\n"+"="*60)
-                print(
-                    f"\n{GREEN}[INFO]{WHITE} Thank You, Happy to help you\n\n")
-                print(
-                    f"{GREEN}[INFO]{WHITE} Please Follow us on {BLUE}Twitter{WHITE} : https://twitter.com/YasserREED\n")
-
+                check2 = str(
+                    input(f"\n    {YELLOW}[WARN] {WHITE}Did you get the code ? [Y/n] : ")).lower()
+                if check2 == 'y':
+                    print(
+                        f"\n{GREEN}[INFO]{WHITE} Thank You, Happy to help you\n\n")
+                    print(
+                        f"{GREEN}[INFO]{WHITE} Please Follow us on {BLUE}Twitter{WHITE} : https://twitter.com/YasserREED\n")
+                    sleep(5)
+                elif check2 == 'n':
+                    print(
+                        f"\n{RED}[ERR]{WHITE} Please run {YELLOW}SMSme.py{WHITE} again and Choose another number!\n")
+                    sleep(5)
+                    quit()
             if check == "y":
                 print(
                     f"\n{BOLD}{GREEN}[INFO]{WHITE} Thank You, Happy to help you\n{GREEN}[INFO]{WHITE} Please Follow us on {BLUE}Twitter{WHITE}:{YELLOW} https://twitter.com/YasserREED{WHITE}\n")
