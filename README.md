@@ -19,7 +19,7 @@
 
 #### Copy this Link
 ```sh
-sudo git clone https://github.com/YasserREED/SMSme.git***
+sudo git clone https://github.com/YasserREED/SMSme.git
 ```
 #### Enter The File
 ```sh
@@ -29,7 +29,7 @@ cd SMSme/
 ```sh
 pip install -r requirments.txt
 ```
-#### Open the tool by `python3
+#### Open the tool by `python3`
 ```sh
 python3 SMSme.py
 ```
