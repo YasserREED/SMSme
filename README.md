@@ -1,13 +1,8 @@
 # SMSme Tool
 
-### Countries
-<img src="https://github.com/YasserREED/SMSme/blob/main/Files/img/Front.jpg">
+<p align="center"><img src="https://github.com/YasserREED/SMSme/blob/main/Files/img/Front.jpg" height="600"></p>
 
-### USA phone numbers
-<img src="https://github.com/YasserREED/SMSme/blob/main/Files/img/USA.jpg">
 
-### Quick use Results
-<img src="https://github.com/YasserREED/SMSme/blob/main/Files/img/quickUse.jpg">
 
 #### Will Show you:
 - **More than `160 free PhoneNumbers`**
@@ -18,19 +13,24 @@
 ## How to Downlaod SMSme in Linux
 
 #### Copy this Link
-```sh
-sudo git clone https://github.com/YasserREED/SMSme.git
+```console
+YasserREED@Linux:~$ sudo git clone https://github.com/YasserREED/SMSme.git
 ```
 #### Enter The File
-```sh
-cd SMSme/
+```console
+YasserREED@Linux:~$ cd SMSme/
 ```
 #### Download requirment librarys
-```sh
-pip install -r requirments.txt
+```console
+YasserREED@Linux:~$ pip install -r requirments.txt
 ```
 #### Open the tool by `python3`
-```sh
-python3 SMSme.py
+```console
+YasserREED@Linux:~$ python3 SMSme.py
 ```
-> Enjoy!
+
+<br>
+
+---
+
+ Enjoy! :heart_on_fire:
