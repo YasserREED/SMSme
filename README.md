@@ -33,4 +33,4 @@ YasserREED@Linux:~$ python3 SMSme.py
 
 ---
 
- Enjoy! :heart_on_fire:
+<p align="center"> Enjoy! :heart_on_fire: </p>
