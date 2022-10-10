@@ -2,6 +2,9 @@
 
 <p align="center"><img src="https://github.com/YasserREED/SMSme/blob/main/Files/img/Front.jpg" height="600"></p>
 
+![](https://img.shields.io/badge/Version-%20v2.0.0-blue)
+![](https://img.shields.io/badge/Twitter-%20YasserREED-blue)
+![](https://img.shields.io/badge/YouTube-%20YasserRED-red)
 
 
 #### Will Show you:
