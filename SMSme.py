@@ -14,7 +14,7 @@ BLUE = '\033[36m'
 Output.logo()
 Output.list()
 
-file = open("Files\data.json", "r")
+file = open("Files/data.json", "r")
 phones = json.load(file)["phones"]
 
 countriesChoose = str(
